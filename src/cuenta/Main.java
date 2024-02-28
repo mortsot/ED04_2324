@@ -1,8 +1,21 @@
 package cuenta;
 
+/**
+ * Clase Main define un objeto CuentaOrtegaSotoMaria2324T4
+ * con unos parámetros y realiza sobre el objeto las acciones de ingresar y retirar dinero.
+ * 
+ * @author María Ortega Soto
+ */
 
 public class Main {
 
+    /**
+     * Método main.
+     * <p>
+     * Es el método principal de ejecución del programa.
+     * 
+     * @param args 
+     */
     
     public static void main(String[] args) {
         CuentaOrtegaSotoMaria2324T4 miCuentaOrtegaSotoMaria2324T4;
@@ -16,6 +29,14 @@ public class Main {
         saldoActual = miCuentaOrtegaSotoMaria2324T4.estado();
         System.out.println("El saldo actual es "+ saldoActual );
     }
+    
+    /**
+     * Método ingresaDineroOrtegaSotoMaria
+     * <p>
+     * Ingresa la cantidad indicada en x en el objeto pasado como parámetro.
+     * 
+     * @param miCuentaOrtegaSotoMaria2324T4     Objeto CuentaOrtegaSotoMaria2324T4
+     */
 
     public static void ingresaDineroOrtegaSotoMaria(CuentaOrtegaSotoMaria2324T4 miCuentaOrtegaSotoMaria2324T4) {
         int x;
@@ -29,7 +50,14 @@ public class Main {
             System.out.print("Fallo al ingresar");
         }
     }
-
+    
+    /**
+     * Método retiraDineroOrtegaSotoMaria
+     * <p>
+     * Retira la cantidad indicada en x del objeto pasado como parámetro.
+     * 
+     * @param miCuentaOrtegaSotoMaria2324T4     Objeto CuentaOrtegaSotoMaria2324T4
+     */
     public static void retiraDineroOrtegaSotoMaria(CuentaOrtegaSotoMaria2324T4 miCuentaOrtegaSotoMaria2324T4) {
         int x;
         try
